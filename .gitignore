@@ -55,5 +55,23 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+<<<<<<< HEAD
 EduGameDag.Unity/EduGameDag/ProjectSettings/Packages/com.unity.probuilder/Settings.json
 EduGameDag.Unity/EduGameDag/UserSettings/EditorUserSettings.asset
+=======
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+*.dwlt
+/*.txt 
+/*.meta
+*.md
+*.prefs
+*.graph
+*.uss 
+*.psd
+*.cginc
+>>>>>>> origin/Character
