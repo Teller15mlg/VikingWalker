@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class AnimatorController : MonoBehaviour
 {
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
     void Update()
     {
-        float currentspeed = GetComponentInParent<CharacterController>().velocity.magnitude;
-        GetComponent<Animator>().SetFloat("Speed", currentspeed);
-        float random = Mathf.Sin(Time.time);
-        GetComponent<Animator>().SetFloat("Randomizer", random);
+        float speed = GetComponent<CharacterController>().velocity.magnitude;
+        GetComponentInChildren<Animator>().SetFloat("Speed", speed);
     }
 }
